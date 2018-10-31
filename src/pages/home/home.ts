@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  goToNextPage(){
+    this.navCtrl.push('NoGoBackPage');
+  }
+
 }
