@@ -15,16 +15,14 @@ import { IonicPage, NavController, NavParams, Navbar } from 'ionic-angular';
 })
 export class NoGoBackPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private navBar: Navbar) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NoGoBackPage');
 
-    this.navBar.backButtonClick = () =>{
-      return false;
-    }
-    
+ 
+
   }
 
 }
