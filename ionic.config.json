@@ -1,5 +1,7 @@
 {
   "name": "ionic-no-go-back",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
